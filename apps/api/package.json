@@ -45,7 +45,6 @@
     "@adonisjs/session": "^8.0.0-next.0",
     "@adonisjs/shield": "^9.0.0-next.1",
     "@adonisjs/static": "^2.0.0-next.1",
-    "@tanstack/react-query": "^5.90.12",
     "@tuyau/core": "catalog:",
     "@vinejs/vine": "^4.1.0",
     "luxon": "^3.7.2",
