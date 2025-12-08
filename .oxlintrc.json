@@ -2,6 +2,8 @@
   "$schema": "./node_modules/oxlint/configuration_schema.json",
   "plugins": ["typescript"],
   "rules": {
-    "typescript/await-thenable": "error"
-  }
+    "typescript/await-thenable": "error",
+    "typescript/triple-slash-reference": "off",
+  },
+  "ignorePatterns": [".adonisjs/**", "node_modules/**", "dist/**", "build/**"]
 }

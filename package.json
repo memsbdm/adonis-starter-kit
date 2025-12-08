@@ -5,7 +5,9 @@
     "dev": "turbo dev --ui=tui",
     "format": "oxfmt",
     "lint": "oxlint",
-    "lint:fix": "oxlint --fix"
+    "lint:fix": "oxlint --fix",
+    "typecheck": "turbo typecheck",
+    "test": "turbo test"
   },
   "devDependencies": {
     "oxfmt": "^0.17.0",

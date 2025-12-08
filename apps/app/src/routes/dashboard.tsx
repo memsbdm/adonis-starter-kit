@@ -4,9 +4,6 @@ import { useQuery } from '@tanstack/react-query'
 import { query } from '@/lib/tuyau'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 
-import type AuthController from '../../../api/app/identity/controllers/auth_controller'
-
-type X = AuthController['getMe']
 export const Route = createFileRoute('/dashboard')({
   component: RouteComponent,
 })
