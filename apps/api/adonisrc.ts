@@ -111,6 +111,7 @@ export default defineConfig({
 
   hooks: {
     init: [
+      generateRegistry(),
       indexEntities({
         transformers: {
           enabled: true,
@@ -126,7 +127,5 @@ export default defineConfig({
         },
       }),
     ],
-
-    routesScanned: [generateRegistry()],
   },
 })

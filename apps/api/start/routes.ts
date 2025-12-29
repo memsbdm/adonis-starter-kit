@@ -3,10 +3,7 @@ import { middleware } from '#start/kernel'
 import { controllers } from '#generated/controllers'
 import { defineRouteGroup } from '#app/core/utils/index'
 
-const {
-  identity: { controllers: identity },
-  core: { controllers: core },
-} = controllers
+const { identity, core } = controllers
 
 defineRouteGroup(() => {
   router.post('register', [identity.Auth, 'register'])
