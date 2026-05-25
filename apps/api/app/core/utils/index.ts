@@ -1,16 +1,5 @@
-import { SchemaTypes } from '@vinejs/vine/types'
-import vine from '@vinejs/vine'
 import router from '@adonisjs/core/services/router'
 import app from '@adonisjs/core/services/app'
-
-/**
- * Define a vine validator. Shortcut for `vine.compile(vine.object(schema))`
- */
-export function defineValidator<Properties extends Record<string, SchemaTypes>>(
-  schema: Properties,
-) {
-  return vine.compile(vine.object(schema))
-}
 
 /**
  * Construct something with the IoC container
